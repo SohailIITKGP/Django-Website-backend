@@ -87,16 +87,16 @@ WSGI_APPLICATION = 'Ecom.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 
-'''DATABASES = {
-    'default': dj_database_url.parse('postgres://djnago_backend_user:ZKNlF67Gco6UicBEDuVUr0rUnn3yhxLD@dpg-cnlj7cljm4es73a7unhg-a.oregon-postgres.render.com/djnago_backend')
-}'''
-
 DATABASES = {
+    'default': dj_database_url.parse('postgres://djnago_backend_user:ZKNlF67Gco6UicBEDuVUr0rUnn3yhxLD@dpg-cnlj7cljm4es73a7unhg-a.oregon-postgres.render.com/djnago_backend')
+}
+
+'''DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
-}
+}'''
 
 
 # Password validation
