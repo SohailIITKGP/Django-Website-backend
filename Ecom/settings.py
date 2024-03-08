@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
+import dj_database_url
 import os 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -84,6 +85,11 @@ WSGI_APPLICATION = 'Ecom.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
+
+
+'''DATABASES = {
+    'default': dj_database_url.parse('postgres://djnago_backend_user:ZKNlF67Gco6UicBEDuVUr0rUnn3yhxLD@dpg-cnlj7cljm4es73a7unhg-a.oregon-postgres.render.com/djnago_backend')
+}'''
 
 DATABASES = {
     'default': {
