@@ -1,4 +1,4 @@
-### Compile
+### Dependencies
 ```shell
-$ command
+$ pip3 install -r requirememnts.txt
 ```
